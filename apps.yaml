@@ -2,7 +2,7 @@ categories:
   - name: "Minecraft Server Positions"
     positions:
       - id: "builder-001"
-        title: "Builder | RB Tower Defence & GGMC"
+        title: "Builder | RB Tower Defence and/or GGMC"
         status: true
         location: "Remote"
         type: "Volunteer"
