@@ -23,7 +23,15 @@ categories:
             required: true
           - name: "email"
             type: "email"
-            label: "Email Address"
+            label: "Email Address (OPTIONAL)"
+            required: false
+          - name: "discord"
+            type: "text"
+            label: "Discord Handle"
+            required: true
+          - name: "minecraft"
+            type: "text"
+            label: "Minecraft Username"
             required: true
           - name: "workType"
             type: "checkbox"
@@ -109,6 +117,14 @@ categories:
             type: "email"
             label: "Email Address"
             required: true
+          - name: "discord"
+            type: "text"
+            label: "Discord Handle"
+            required: true
+          - name: "minecraft"
+            type: "text"
+            label: "Minecraft Username"
+            required: true
           - name: "experience"
             type: "textarea"
             label: "Describe your management experience"
@@ -188,7 +204,15 @@ categories:
             required: true
           - name: "email"
             type: "email"
-            label: "Email Address"
+            label: "Email Address (OPTIONAL)"
+            required: false
+          - name: "discord"
+            type: "text"
+            label: "Discord Handle"
+            required: true
+          - name: "minecraft"
+            type: "text"
+            label: "Minecraft Username"
             required: true
           - name: "name"
             type: "number"
