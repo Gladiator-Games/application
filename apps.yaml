@@ -1,0 +1,247 @@
+categories:
+  - name: "Minecraft Server Positions"
+    positions:
+      - id: "builder-001"
+        title: "Builder"
+        status: true
+        location: "Remote"
+        type: "Part-time"
+        description: |
+          As a Builder, you will be responsible for creating stunning structures and landscapes for our Minecraft server.
+
+          #### **Requirements**
+          - Proficiency in building in Minecraft.
+          - Experience with server plugins (WorldEdit, etc.) is a plus.
+          - Ability to work within themes and guidelines.
+
+          #### **Instructions**
+          Please showcase your portfolio and provide details about your building experience.
+        applicationFields:
+          - name: "fullName"
+            type: "text"
+            label: "Full Name"
+            required: true
+          - name: "email"
+            type: "email"
+            label: "Email Address"
+            required: true
+          - name: "portfolio"
+            type: "url"
+            label: "Portfolio URL"
+            required: true
+          - name: "experience"
+            type: "textarea"
+            label: "Describe your Minecraft building experience"
+            required: true
+          - name: "timezone"
+            type: "select"
+            label: "Your Timezone"
+            required: true
+            options:
+              - "UTC-12:00"
+              - "UTC-11:00"
+              - "UTC-10:00"
+              - "UTC-09:30"
+              - "UTC-09:00"
+              - "UTC-08:00"
+              - "UTC-07:00"
+              - "UTC-06:00"
+              - "UTC-05:00"
+              - "UTC-04:00"
+              - "UTC-03:30"
+              - "UTC-03:00"
+              - "UTC-02:00"
+              - "UTC-01:00"
+              - "UTC+00:00"
+              - "UTC+01:00"
+              - "UTC+02:00"
+              - "UTC+03:00"
+              - "UTC+03:30"
+              - "UTC+04:00"
+              - "UTC+04:30"
+              - "UTC+05:00"
+              - "UTC+05:30"
+              - "UTC+05:45"
+              - "UTC+06:00"
+              - "UTC+06:30"
+              - "UTC+07:00"
+              - "UTC+08:00"
+              - "UTC+08:45"
+              - "UTC+09:00"
+              - "UTC+09:30"
+              - "UTC+10:00"
+              - "UTC+10:30"
+              - "UTC+11:00"
+              - "UTC+12:00"
+              - "UTC+12:45"
+              - "UTC+13:00"
+              - "UTC+14:00"
+
+      - id: "manager-002"
+        title: "Manager"
+        status: true
+        location: "Remote"
+        type: "Full-time"
+        description: |
+          The Manager oversees team operations, ensures project deadlines are met, and manages team communication.
+
+          #### **Requirements**
+          - Strong leadership and communication skills.
+          - Experience managing teams, preferably in a Minecraft server environment.
+          - Familiarity with Minecraft server management tools.
+
+          #### **Instructions**
+          Share your management experience and how you can contribute to our server's growth.
+        applicationFields:
+          - name: "fullName"
+            type: "text"
+            label: "Full Name"
+            required: true
+          - name: "email"
+            type: "email"
+            label: "Email Address"
+            required: true
+          - name: "experience"
+            type: "textarea"
+            label: "Describe your management experience"
+            required: true
+          - name: "skills"
+            type: "checkbox"
+            label: "Relevant Skills (Only things you are proficient in)"
+            required: true
+            options:
+              - "Leadership"
+              - "Conflict Resolution"
+              - "Organization"
+              - "Minecraft Server Management"
+          - name: "timezone"
+            type: "select"
+            label: "Your Timezone"
+            required: true
+            options:
+              - "UTC-12:00"
+              - "UTC-11:00"
+              - "UTC-10:00"
+              - "UTC-09:30"
+              - "UTC-09:00"
+              - "UTC-08:00"
+              - "UTC-07:00"
+              - "UTC-06:00"
+              - "UTC-05:00"
+              - "UTC-04:00"
+              - "UTC-03:30"
+              - "UTC-03:00"
+              - "UTC-02:00"
+              - "UTC-01:00"
+              - "UTC+00:00"
+              - "UTC+01:00"
+              - "UTC+02:00"
+              - "UTC+03:00"
+              - "UTC+03:30"
+              - "UTC+04:00"
+              - "UTC+04:30"
+              - "UTC+05:00"
+              - "UTC+05:30"
+              - "UTC+05:45"
+              - "UTC+06:00"
+              - "UTC+06:30"
+              - "UTC+07:00"
+              - "UTC+08:00"
+              - "UTC+08:45"
+              - "UTC+09:00"
+              - "UTC+09:30"
+              - "UTC+10:00"
+              - "UTC+10:30"
+              - "UTC+11:00"
+              - "UTC+12:00"
+              - "UTC+12:45"
+              - "UTC+13:00"
+              - "UTC+14:00"
+
+      - id: "helper-003"
+        title: "Helper"
+        status: false
+        location: "Remote"
+        type: "Part-time"
+        description: |
+          As a Helper, your role is to moderate chat, assist players, and ensure a safe and welcoming environment.
+
+          #### **Requirements**
+          - Excellent communication and problem-solving skills.
+          - Familiarity with Minecraft commands and basic server rules.
+          - Ability to remain calm and professional under pressure.
+
+          #### **Instructions**
+          Provide details about your experience with community management and how you can help maintain a positive server atmosphere.
+        applicationFields:
+          - name: "fullName"
+            type: "text"
+            label: "Full Name"
+            required: true
+          - name: "email"
+            type: "email"
+            label: "Email Address"
+            required: true
+          - name: "name"
+            type: "number"
+            label: "Age"
+          - name: "experience"
+            type: "textarea"
+            label: "What experience do you have in being a helper?"
+            required: true
+          - name: "response"
+            type: "textarea"
+            label: "Two players are having an argument in the chat. - How do you resolve this situation?"
+            required: true
+          - name: "skills"
+            type: "checkbox"
+            label: "Relevant Skills (Only things you are proficient in)"
+            required: true
+            options:
+              - "Moderation"
+              - "Conflict Resolution"
+              - "Minecraft Commands"
+              - "Player Support"
+          - name: "timezone"
+            type: "select"
+            label: "Your Timezone"
+            required: true
+            options:
+              - "UTC-12:00"
+              - "UTC-11:00"
+              - "UTC-10:00"
+              - "UTC-09:30"
+              - "UTC-09:00"
+              - "UTC-08:00"
+              - "UTC-07:00"
+              - "UTC-06:00"
+              - "UTC-05:00"
+              - "UTC-04:00"
+              - "UTC-03:30"
+              - "UTC-03:00"
+              - "UTC-02:00"
+              - "UTC-01:00"
+              - "UTC+00:00"
+              - "UTC+01:00"
+              - "UTC+02:00"
+              - "UTC+03:00"
+              - "UTC+03:30"
+              - "UTC+04:00"
+              - "UTC+04:30"
+              - "UTC+05:00"
+              - "UTC+05:30"
+              - "UTC+05:45"
+              - "UTC+06:00"
+              - "UTC+06:30"
+              - "UTC+07:00"
+              - "UTC+08:00"
+              - "UTC+08:45"
+              - "UTC+09:00"
+              - "UTC+09:30"
+              - "UTC+10:00"
+              - "UTC+10:30"
+              - "UTC+11:00"
+              - "UTC+12:00"
+              - "UTC+12:45"
+              - "UTC+13:00"
+              - "UTC+14:00"
