@@ -2,7 +2,7 @@ categories:
   - name: "Minecraft Server Positions"
     positions:
       - id: "builder-001"
-        title: "Builder"
+        title: "Builder | RB Tower Defence & GGMC"
         status: true
         location: "Remote"
         type: "Volunteer"
@@ -25,6 +25,14 @@ categories:
             type: "email"
             label: "Email Address"
             required: true
+          - name: "workType"
+            type: "checkbox"
+            label: "Which server(s) would you like to build in?"
+            required: true
+            options:
+              - "GGMC Lifesteal"
+              - "GGMC Prison"
+              - "RB Tower Defense"
           - name: "portfolio"
             type: "url"
             label: "Portfolio URL"
