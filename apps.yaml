@@ -23,7 +23,7 @@ categories:
             required: true
           - name: "email"
             type: "email"
-            label: "Email Address (OPTIONAL)"
+            label: "Email Address"
             required: false
           - name: "discord"
             type: "text"
@@ -210,7 +210,7 @@ categories:
             required: true
           - name: "email"
             type: "email"
-            label: "Email Address (OPTIONAL)"
+            label: "Email Address"
             required: false
           - name: "discord"
             type: "text"
