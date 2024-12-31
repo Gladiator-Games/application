@@ -33,6 +33,9 @@ categories:
             type: "text"
             label: "Minecraft Username"
             required: true
+          - name: "name"
+            type: "number"
+            label: "Age"
           - name: "workType"
             type: "checkbox"
             label: "Which server(s) would you like to build in?"
@@ -125,6 +128,9 @@ categories:
             type: "text"
             label: "Minecraft Username"
             required: true
+          - name: "name"
+            type: "number"
+            label: "Age"
           - name: "experience"
             type: "textarea"
             label: "Describe your management experience"
