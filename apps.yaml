@@ -78,7 +78,7 @@ categories:
               - "UTC+14:00"
 
       - id: "manager-002"
-        title: "Manager - RB Tower Defense"
+        title: "Manager | RB Tower Defense"
         status: true
         location: "Remote"
         type: "Volunteer"
@@ -159,7 +159,7 @@ categories:
               - "UTC+14:00"
 
       - id: "helper-003"
-        title: "Helper - RB Tower Defense"
+        title: "Helper | RB Tower Defense"
         status: true
         location: "Remote"
         type: "Volunteer"
