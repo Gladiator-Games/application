@@ -5,7 +5,7 @@ categories:
         title: "Builder"
         status: true
         location: "Remote"
-        type: "Part-time"
+        type: "Volunteer"
         description: |
           As a Builder, you will be responsible for creating stunning structures and landscapes for our Minecraft server.
 
@@ -19,7 +19,7 @@ categories:
         applicationFields:
           - name: "fullName"
             type: "text"
-            label: "Full Name"
+            label: "Preferred Name"
             required: true
           - name: "email"
             type: "email"
@@ -81,7 +81,7 @@ categories:
         title: "Manager"
         status: true
         location: "Remote"
-        type: "Full-time"
+        type: "Volunteer"
         description: |
           The Manager oversees team operations, ensures project deadlines are met, and manages team communication.
 
@@ -95,7 +95,7 @@ categories:
         applicationFields:
           - name: "fullName"
             type: "text"
-            label: "Full Name"
+            label: "Preferred Name"
             required: true
           - name: "email"
             type: "email"
@@ -160,9 +160,9 @@ categories:
 
       - id: "helper-003"
         title: "Helper"
-        status: false
+        status: true
         location: "Remote"
-        type: "Part-time"
+        type: "Volunteer"
         description: |
           As a Helper, your role is to moderate chat, assist players, and ensure a safe and welcoming environment.
 
@@ -176,7 +176,7 @@ categories:
         applicationFields:
           - name: "fullName"
             type: "text"
-            label: "Full Name"
+            label: "Preferred Name"
             required: true
           - name: "email"
             type: "email"
