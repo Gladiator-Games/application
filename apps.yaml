@@ -32,6 +32,7 @@ categories:
           - name: "phone"
             type: "select"
             label: "Preferred Contact Method"
+            required: true
             options:
               - "Discord"
               - "Email"
@@ -133,6 +134,7 @@ categories:
           - name: "phone"
             type: "select"
             label: "Preferred Contact Method"
+            required: true
             options:
               - "Discord"
               - "Email"
@@ -231,6 +233,7 @@ categories:
           - name: "phone"
             type: "select"
             label: "Preferred Contact Method"
+            required: true
             options:
               - "Discord"
               - "Email"
