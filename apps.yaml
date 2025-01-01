@@ -29,6 +29,12 @@ categories:
             type: "text"
             label: "Discord Handle"
             required: true
+          - name: "phone"
+            type: "select"
+            label: "Preferred Contact Method"
+            options:
+              - "Discord"
+              - "Email"
           - name: "minecraft"
             type: "text"
             label: "Minecraft Username"
@@ -124,6 +130,12 @@ categories:
             type: "text"
             label: "Discord Handle"
             required: true
+          - name: "phone"
+            type: "select"
+            label: "Preferred Contact Method"
+            options:
+              - "Discord"
+              - "Email"
           - name: "minecraft"
             type: "text"
             label: "Minecraft Username"
@@ -216,6 +228,12 @@ categories:
             type: "text"
             label: "Discord Handle"
             required: true
+          - name: "phone"
+            type: "select"
+            label: "Preferred Contact Method"
+            options:
+              - "Discord"
+              - "Email"
           - name: "minecraft"
             type: "text"
             label: "Minecraft Username"
