@@ -105,7 +105,7 @@ categories:
 
       - id: "manager-002"
         title: "Manager | RB Tower Defense"
-        status: true
+        status: false
         location: "Remote"
         type: "Volunteer"
         description: |
